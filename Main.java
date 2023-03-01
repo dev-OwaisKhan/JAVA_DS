@@ -44,6 +44,8 @@ class Main
             case 3:
             {
 
+                System.out.println("CASE3");
+
             } break;
             case 4:
             {
