@@ -7,6 +7,8 @@
  * Map - HashMap, TreeMap
  */
 import java.util.*;
+import lib.*;
+
 class Main
 {
 
@@ -272,6 +274,19 @@ class Main
     {
         datastructure = "Stack";
         size_and_datatype();
+        if(datatype.equals("s"))
+        {
+            stack stack = new stack<String>();
+        }
+        else if(datatype.equals("i"))
+        {
+            stack stack = new stack<Integer>();            
+        }
+        else
+        {
+            stack stack = new stack<Double>();
+        }
+        
     }
 
     public static void main(String[] args) {

@@ -1,16 +1,17 @@
 package lib;
+import java.util.Arrays;
 
-public class ArrayList<T> {
+public class arraylist<T> {
     private static final int DEFAULT_CAPACITY = 10;
     private Object[] elements;
     private int size;
 
-    public ArrayList() {
+    public arraylist() {
         elements = new Object[DEFAULT_CAPACITY];
         size = 0;
     }
 
-    public ArrayList(int initialCapacity) {
+    public arraylist(int initialCapacity) {
         elements = new Object[initialCapacity];
         size = 0;
     }

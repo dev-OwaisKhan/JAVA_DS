@@ -2,7 +2,7 @@ package lib;
 
 import java.util.EmptyStackException;
 
-public class Stack<T> {
+public class stack<T> {
     private Node<T> top;
     private int size;
 
@@ -15,7 +15,7 @@ public class Stack<T> {
         }
     }
 
-    public Stack() {
+    public stack() {
         top = null;
         size = 0;
     }
