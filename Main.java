@@ -276,15 +276,15 @@ class Main
         size_and_datatype();
         if(datatype.equals("s"))
         {
-            stack stack = new stack<String>();
+            Ds_stack stack = new Ds_stack<String>();
         }
         else if(datatype.equals("i"))
         {
-            stack stack = new stack<Integer>();            
+            Ds_stack stack = new Ds_stack<Integer>();            
         }
         else
         {
-            stack stack = new stack<Double>();
+            Ds_stack stack = new Ds_stack<Double>();
         }
         
     }
