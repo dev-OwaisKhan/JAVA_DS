@@ -123,13 +123,13 @@ class Main
                         }break;
                         case 1:
                         {
-                            datastructure = "ArrayList";
-                            size_and_datatype();
+                            arraylist();
+                            
                         }break;
                         case 2:
                         {
-                            datastructure = "LinkedList";
-                            size_and_datatype();
+                            linkedlist();
+                            
                         }break;
                         default:
                         {
@@ -154,13 +154,11 @@ class Main
                         }break;
                         case 1:
                         {
-                            datastructure = "HaspMap";
-                            size_and_datatype();
+                            hashmap();
                         }break;
                         case 2:
                         {
-                            datastructure = "TreeMap";
-                            size_and_datatype();
+                            treemap();
                         }break;
                         default:
                         {
@@ -174,8 +172,7 @@ class Main
                 {
 
                     System.out.println("--------------------Queue--------------------");
-                    datastructure = "Queue";
-                    size_and_datatype();
+                    queue();
 
                 } break;
 
@@ -196,18 +193,16 @@ class Main
                         }break;
                         case 1:
                         {
-                            datastructure = "HashSet";
-                            size_and_datatype();
+                            hashset();
                         }break;
                         case 2:
                         {
-                            datastructure = "TreeSet";
-                            size_and_datatype();
+                            treeset();
                         }break;
                         case 3:
                         {
-                            datastructure = "LinkedHashSet";
-                            size_and_datatype();
+                            linkedhashset();
+                            
                         }break;
                         default:
                         {
@@ -219,8 +214,7 @@ class Main
                 case 5:
                 {
                     System.out.println("--------------------Stack--------------------");
-                    datastructure = "Stack";
-                    size_and_datatype();
+                    stack();
                 } break;
 
                 default:
@@ -234,6 +228,51 @@ class Main
         }
     }
 
+    public static void arraylist()
+    {
+        datastructure = "ArrayList";
+        size_and_datatype();
+    }
+    public static void linkedlist()
+    {
+        datastructure = "LinkedList";
+        size_and_datatype();  
+    }
+    public static void hashmap()
+    {
+        datastructure = "HaspMap";
+        size_and_datatype();
+    }
+    public static void treemap()
+    {
+        datastructure = "TreeMap";
+        size_and_datatype();
+    }
+    public static void queue()
+    {
+        datastructure = "Queue";
+        size_and_datatype();
+    }
+    public static void hashset()
+    {
+        datastructure = "HashSet";
+        size_and_datatype();
+    }
+    public static void treeset()
+    {
+        datastructure = "TreeSet";
+        size_and_datatype();
+    }
+    public static void linkedhashset()
+    {
+        datastructure = "LinkedHashSet";
+        size_and_datatype();
+    }
+    public static void stack()
+    {
+        datastructure = "Stack";
+        size_and_datatype();
+    }
 
     public static void main(String[] args) {
         

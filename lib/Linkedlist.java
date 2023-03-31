@@ -1,16 +1,20 @@
 package lib;
 
-public class LinkedList<T> {
+public class linkedlist<T> {
     private Node<T> head;
     private int size;
 
-    public LinkedList() {
+    public linkedlist() {
         head = null;
         size = 0;
     }
 
+    public void setSize(int size)
+    {
+        this.size = size;
+    }
     public int size() {
-        return size;
+        return this.size;
     }
 
     public boolean isEmpty() {

@@ -1,3 +1,7 @@
+package lib;
+
+import java.util.EmptyStackException;
+
 public class Stack<T> {
     private Node<T> top;
     private int size;
@@ -16,8 +20,12 @@ public class Stack<T> {
         size = 0;
     }
 
+    public void setSize(int size)
+    {
+        this.size = size;
+    }
     public int size() {
-        return size;
+        return this.size;
     }
 
     public boolean isEmpty() {
